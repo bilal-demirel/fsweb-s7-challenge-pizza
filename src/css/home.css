@@ -1,0 +1,195 @@
+.whole-page{
+    
+    background-color: #FAF7F2;
+}
+
+.main-page {
+    background-image: url("../../Assets/mile1-assets/home-banner.png");
+    height: 59rem;
+    width: 120rem;
+    background-size: cover;
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.logo{
+    padding-bottom: 10rem;
+}
+
+.text{
+    color: white;
+    font-weight: 10;
+    font-style: normal;
+}
+
+.order-btn{
+    background-color: #FDC913;
+    border-radius: 5rem;
+    width: 11rem;
+}
+
+.categories-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1rem 0 1rem 0;
+    font-weight: bold;
+}
+
+.categories-nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    list-style-type: none;
+}
+
+.campaings-div{
+    display: flex;
+    justify-content: center;
+    height: 25rem;
+}
+
+.big-image{
+    background-image: url("../../Assets/mile2-aseets/cta/kart-1.png");
+    width: 25%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+    color: white;
+}
+
+.big-image h1{
+    font-family: "Quattrocento", serif;
+    margin: 2rem 0 1rem 2rem;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 2rem;
+    font-weight: bold;
+}
+
+.big-image p{
+    font-family: "Quattrocento", serif;
+    margin: 0 0 0 2rem;
+
+}
+
+.big-image button{
+    margin: 1rem 0 0 2rem;
+    border-radius: 2rem;
+    color: red;
+    font-weight: bold;
+}
+
+.small-images{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-left: 1rem;
+    width: 35rem;
+    font-size: 0.5rem;
+}
+
+.small-image-1{
+    display: flex;
+    flex-direction: column;
+    background-image: url("../../Assets/mile2-aseets/cta/kart-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+    height: 12rem;
+    color: white;
+}
+
+.small-image-1-h1{
+    margin: 2rem 0 0.5rem 2rem;
+}
+
+.small-image-1-h2{
+    margin: 0 0 2rem 2rem;
+}
+
+.small-image-1 button{
+    width: 7rem;
+    height: 2.5rem;
+    margin-left: 2rem;
+    border-radius: 2rem;
+    color: red;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+.small-image-2{
+    background-image: url("../../Assets/mile2-aseets/cta/kart-3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+    height: 12rem;
+}
+
+.small-image-2-inner{
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 0 0 2rem;
+
+}
+
+.small-image-red{
+    display: flex;
+}
+.small-image-2-first{
+    color: red;
+}
+
+.small-image-2 button{
+    width: 7rem;
+    height: 2.5rem;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    color: red;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+.middle-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7rem;
+}
+
+.middle-info h3{
+    font-style: italic;
+    color: red;
+    font-family: 'Brush Script MT', cursive;
+}
+
+.below-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.below-nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+}
+
+.below-nav button{
+    border-radius: 2rem;
+    width: 11rem;
+}
+
+.below-nav button:active{
+    background-color: black;
+    color: white;
+}

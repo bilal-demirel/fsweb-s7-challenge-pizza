@@ -40,3 +40,17 @@
 .read-the-docs {
   color: #888;
 }
+
+.priceLine{    
+  display: flex;
+  flex-direction: row;
+  color: red;
+  align-items: center;
+  text-align: right;
+}
+
+.radio{
+  display: flex;
+  flex-direction: column;
+}
+

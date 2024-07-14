@@ -1,0 +1,213 @@
+.order-top-div{
+    display: flex;
+    flex-direction: column;
+    background-color: #FAF7F2;
+}
+
+.logo-div{
+    display: flex;
+    justify-content: center;
+    background-color: #CE2829;
+    height: 5rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.order-pizza{
+    display: flex;
+    justify-content: center;
+    background-color: #FAF7F2;
+}
+
+.order-pizza-logo{
+    width: 25rem;
+    margin-bottom: 3rem;
+}
+
+.order-path{
+    display: flex;
+    margin-left: 40rem;
+    opacity: 0.7;
+}
+
+.order-path-2{
+    color: red;
+}
+
+.pizza-title{
+    padding-bottom: 2rem;
+    align-items: left;
+    margin-left: 40rem;
+}
+
+.price-container{
+    display: flex;
+    flex-direction: row;
+    width: 15%;
+    justify-content: flex-start;
+    margin-left: 40rem;
+    
+}
+
+.price-line{
+    margin-right: 20rem;
+    padding: 0;
+    font-weight: bold;
+}
+
+.rate-line{
+    margin-top: 0.5rem;
+    opacity: 0.6;
+}
+
+.counter-line{
+    margin-top: 0.5rem;
+    margin-left: 5rem;
+    opacity: 0.6;
+}
+
+.details-line{
+    width: 31%;
+    margin-left: 40rem;
+    display: flex;
+    max-width: 1;
+    opacity: 0.7;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 0.8rem;
+    margin-top: 1rem;
+}
+
+.size-thinness{
+    display: flex;
+    flex-direction: row;
+    margin-left: 40rem;
+    gap: 12rem;
+    margin-top: 1rem;
+}
+
+.radio label{
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer; 
+    margin-right: 0.5rem;
+    background-color: #FAF7F2;
+}
+
+input[type="radio"]:checked + label {
+    background-color: #3498db;
+    color: #fff;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.dropdown-select{
+    background-color: #FAF7F2;
+    width: 12rem;
+    height: 2rem;
+    border-radius: 10%;
+    border: none;
+}
+
+.checkbox{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40rem;
+    margin-top: 1rem;
+}
+
+.checkbox label{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.checkbox-container{
+    display: flex;
+    flex-direction: column;
+    height: 11rem;
+    width: 40rem;
+    flex-wrap: wrap;
+}
+
+.checkbox input{
+    height: 2rem;
+    width: 2rem;
+    cursor: pointer;
+}
+
+input[type=checkbox] {
+    accent-color: #FDC913;
+    opacity: 0.7;
+}
+
+.text-area-name{
+    display: flex;
+    margin-left: 40rem;
+    margin-top: 3rem;
+}
+
+.text-area-name textarea{
+    height: 2rem;
+    width: 13rem;
+    border: none;
+    background-color: #FAF7F2;
+}
+
+.text-area{
+    margin-left: 40rem;
+    margin-top: 2rem;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 2rem;
+    width: 36rem;
+}
+
+.text-area textarea{
+    width: 36rem;
+    height: 4rem;
+    border: none;
+    background-color: #FAF7F2;
+}
+
+.order-summary{
+    margin-left: 40rem;
+    display: flex;
+    margin-top: 2rem;
+
+}
+
+.quantity input{
+    width: 2rem;
+    border: none;
+    height: 2.7rem;
+    text-align: center;
+    background-color: #FAF7F2;
+}
+
+.quantity button{
+    width: 1rem;
+    background-color: #FAF7F2;
+}
+
+.order-prices{
+    display: flex;
+    flex-direction: column;
+    margin-left: 9rem;
+    background-color: #FAF7F2;
+    width: 20rem;
+    padding-top: 2rem;
+}
+
+.order-prices-nobtn{
+    padding-left: 3rem;
+}
+
+.order-prices button{
+    background-color: #FDC913;
+    width: 20rem;
+}
